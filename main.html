@@ -1,0 +1,114 @@
+<!Doctype HTML>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Mock Portfolio</title>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100,300" rel="stylesheet">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <img class="head-logo" src="http://lorempixel.com/100/100/cats" alt="logo">
+      </div>
+      <div class="cold-md-6 text-right text-uppercase">
+        <h1 class="title-big text-thin"> Jane Doette</h1>
+        <h3>Front-end Ninja</h3>
+      </div>
+      <div class="col-md-12">
+        <hr class="title-line">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <img class="img-responsive" src="http://lorempixel.com/1920/1080/cats" alt="center image">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h2 class="text-gray">Featured Work</h2>
+      </div>
+    </div>
+    <div class="row text-center">
+      <div class="col-md-4">
+        <img class="img-responsive" src="http://lorempixel.com/400/300/cats" alt="Appify" data-toggle="modal" data-target="#project1">
+        <h4 class="text-uppercase text-bold text-med">Appify</h3>
+        <p>
+          https://github.com/udacity/appify
+        </p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive"  src="http://lorempixel.com/400/300/cats" alt="Sunflower" data-toggle="modal" data-target="#project2">
+        <h4 class="text-uppercase text-bold text-med">Sunflower</h3>
+        <p>
+          https://github.com/udacity/sunflower
+        </p>
+      </div>
+      <div class="col-md-4">
+        <img class="img-responsive"  src="http://lorempixel.com/400/300/cats" alt="Bokeh" data-toggle="modal" data-target="#project3">
+        <h4 class="text-uppercase text-bold text-med">Bokeh</h3>
+        <p>
+          https://github.com/udacity/bokeh
+        </p>
+      </div>
+    </div>
+
+  </div>
+
+<!-- Modals, at first i was not able to change the complete name for the id because it would not work instead I changed the number. (project1, project2, etc)  -->
+  <div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="http://lorempixel.com/400/300/cats"> This was my first modal. I tried changing the id name but it did not work that way. Instead, I had to use the original project1.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://lorempixel.com/400/300/cats"> This was my second modal. It was not too hard on the second modal.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="myModalLabel">Favorite App Page</h4>
+        </div>
+        <div class="modal-body">
+          <img class="img-responsive" src="http://lorempixel.com/400/300/cats"> This was my last modal for the project. Enjoy the random cat pictures.
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
